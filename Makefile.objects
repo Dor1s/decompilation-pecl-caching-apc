@@ -1,0 +1,52 @@
+apc.lo: /media/psf/Home/Downloads/APC-3.1.13/apc.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc.c -o apc.lo 
+php_apc.lo: /media/psf/Home/Downloads/APC-3.1.13/php_apc.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/php_apc.c -o php_apc.lo 
+apc_cache.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_cache.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_cache.c -o apc_cache.lo 
+apc_compile.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_compile.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_compile.c -o apc_compile.lo 
+apc_debug.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_debug.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_debug.c -o apc_debug.lo 
+apc_fcntl.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_fcntl.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_fcntl.c -o apc_fcntl.lo 
+apc_main.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_main.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_main.c -o apc_main.lo 
+apc_mmap.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_mmap.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_mmap.c -o apc_mmap.lo 
+apc_sem.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_sem.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_sem.c -o apc_sem.lo 
+apc_shm.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_shm.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_shm.c -o apc_shm.lo 
+apc_pthreadmutex.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_pthreadmutex.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_pthreadmutex.c -o apc_pthreadmutex.lo 
+apc_pthreadrwlock.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_pthreadrwlock.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_pthreadrwlock.c -o apc_pthreadrwlock.lo 
+apc_spin.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_spin.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_spin.c -o apc_spin.lo 
+pgsql_s_lock.lo: /media/psf/Home/Downloads/APC-3.1.13/pgsql_s_lock.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/pgsql_s_lock.c -o pgsql_s_lock.lo 
+apc_sma.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_sma.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_sma.c -o apc_sma.lo 
+apc_stack.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_stack.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_stack.c -o apc_stack.lo 
+apc_zend.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_zend.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_zend.c -o apc_zend.lo 
+apc_rfc1867.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_rfc1867.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_rfc1867.c -o apc_rfc1867.lo 
+apc_signal.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_signal.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_signal.c -o apc_signal.lo 
+apc_pool.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_pool.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_pool.c -o apc_pool.lo 
+apc_iterator.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_iterator.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_iterator.c -o apc_iterator.lo 
+apc_bin.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_bin.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_bin.c -o apc_bin.lo 
+apc_string.lo: /media/psf/Home/Downloads/APC-3.1.13/apc_string.c
+	$(LIBTOOL) --mode=compile $(CC) $(APC_CFLAGS) -I. -I/media/psf/Home/Downloads/APC-3.1.13 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /media/psf/Home/Downloads/APC-3.1.13/apc_string.c -o apc_string.lo 
+$(phplibdir)/apc.la: ./apc.la
+	$(LIBTOOL) --mode=install cp ./apc.la $(phplibdir)
+
+./apc.la: $(shared_objects_apc) $(APC_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_apc) $(APC_SHARED_LIBADD)
+
